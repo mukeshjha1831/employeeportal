@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+main {
+  margin: 3em;
+}
+.button-container {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-bottom: 1.5rem;
+}
+.submit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5em;
+}
+.dialog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #008080;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-title {
+  font-size: 1.2em;
+}
+.no-data {
+  text-align: left;
+  font-size: 1.2rem;
+  color: gray;
+  margin-left: 1rem;
+}
+p {
+  margin: 5px;
+}
